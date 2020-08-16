@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #cbeaed;
+  height: 60px;
+  padding: 8px;
+  box-sizing: border-box;
+
+  .header-title {
+    flex: 1;
+
+    margin-left: 20px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    color: #006a71;
+    font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+
+  .header-search-text-box {
+    margin-right: 20px;
+  }
+}

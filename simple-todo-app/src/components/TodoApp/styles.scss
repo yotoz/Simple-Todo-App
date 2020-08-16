@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  height: 60px;
+  padding: 8px;
+  box-sizing: border-box;
+
+  .header-title {
+    padding-bottom: 3px;
+    font-size: 18px;
+    color: white;
+
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
